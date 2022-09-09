@@ -11,14 +11,14 @@
     min-height: 100vh;
     width: 100%;
     position: relative;
-    z-index: 1;
-}
+ }
+        
 nav{
     display: flex;
     padding:0% 4%;
     justify-content: space-between ;
     align-items: center;
-   
+
 }
 nav img {
     width: 200px;
@@ -43,17 +43,16 @@ nav img {
     color: #000;
     background:rgb(168, 166, 166);
     box-sizing: border-box;
-    
-   
- }
+   }
 button{
     color: #fff;
     background:#e20a17;
     border-style: none;
     width: 90px;
     border-radius: 5px;
-    height: 35px;
-    font-size: 16px;
+    height: 38px;
+ 
+    
 } 
 .nav-links button{
     border-radius: 5px;
@@ -68,37 +67,129 @@ button{
     text-align: center;
   }
   .text h1{
-    font-size: 50px;
+    font-size: 55px;
   }
   .text h6{
     line-height: 3rem;
     font-size: 24px;
-    font-weight: 100;
+    font-weight: 120;
   }
   .text p{
     margin: 10px 0 20px;
     font-size: 20px;
+    font-weight: 100;
     /* line-height: 3rem; */
  }
  .text button, input{
     cursor: pointer;
-    height: 55px;
+    height: 60px;
     box-sizing: border-box;
-    
- }
+     }
+
  .text button{
     width: 200px;
     display: inline-block;
-    font-size:26px ;
+    font-size:24px ;
     font-weight: 100;
-    overflow: hidden;
+ 
+    border-radius: 0;
  }
  .text input{
     width: 500px;
     /* border-radius: 2px solid white; */
     margin-right: -5px;
     font-size: 16px;
+    padding: 10px;
+  
  }
+ .second, .third, .fourth, .fifth, .sixth, .footer {
+    background: #000;
+    background-position:center;
+    background-size:cover;
+    min-height: 75vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 7.5px 0;
+    background-attachment: fixed;
+    }
+ .text-left{
+  width: 50%;    
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 32%;
+  text-align: left;
+}
+.text-left, .text-right h1{
+  font-size: 50px;
+}
+.text-left, .text-right p{
+  font-size: 22px;
+  font-weight: 100;
+}
+.text-right{
+  width: 50%;    
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 72%;
+  text-align: left;
+}
+.img-right{
+  width: 45%;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+}
+.img-left{
+  width: 45%;
+  align-items: center;
+  position: absolute;
+
+ }
+
+ .text-footer{
+  width: 100%;    
+  color: #fff;
+  position: absolute;
+  top: 8%;
+  left: 50%;
+   font-size: 30px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  font-weight: bolder;
+  
+ }
+ .qus-btn{
+  background-color:rgba(102, 98, 98, 0.42);
+  /* opacity: 0.5; */
+  left: 22%;
+  width: 55%;
+  padding: 10px 20px;
+  margin: 10px;
+  display: block;
+  align-items: center;
+  text-align: left;
+  height: 70px;
+  border-radius: 0;
+
+ }
+button{
+   color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+  
+  
+
+ 
   
   
   
